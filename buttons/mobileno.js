@@ -4,7 +4,7 @@ function button()
 
 	var	phone=ph.length
 
-    if(phone>0)
+    if(phone>3)
 	{
 	     document.getElementById("p").removeAttribute("disabled")
 	}
