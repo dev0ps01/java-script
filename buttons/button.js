@@ -4,11 +4,13 @@ function button()
 
 	var	phone=ph.length
 
-if(phone>0)
+    if(phone>0)
 	{
-	document.getElementById("p").removeAttribute("disabled")
+	     document.getElementById("p").removeAttribute("disabled")
 	}
 	else
 	{
 		document.getElementById("p").setAttribute("disabled","true")
 	}
+
+}
